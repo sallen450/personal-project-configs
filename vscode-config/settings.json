@@ -1,0 +1,43 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    "window.zoomLevel": 0,
+    "eslint.options": {
+        "extensions": [".js", "jsx", ".vue"]
+    },
+    "files.associations": {
+        "*.jsx": "javascriptreact",
+        "*.vue": "vue"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue",
+        "vue-html"
+    ],
+    "javascript.validate.enable": false,
+    "vim.useCtrlKeys": false,
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "workbench.colorTheme": "Quiet Light",
+    "vetur.validation.template": false,
+    "breadcrumbs.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vim.disableExtension": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "C_Cpp.updateChannel": "Insiders",
+    "timing.insertConvertedTime": false,
+    "insertDateString.format": "iso",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.sideBar.location": "left",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.renderControlCharacters": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

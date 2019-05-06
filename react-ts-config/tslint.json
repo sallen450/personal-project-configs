@@ -1,0 +1,14 @@
+{
+  "extends": ["tslint-react", "tslint-config-airbnb", "tslint-react-hooks"],
+  "rules": {
+    "import-name": false,
+    "variable-name": false,
+    "jsx-boolean-value": false,
+    "function-name": false,
+    "object-shorthand-properties-first": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "brace-style": [true, "stroustrup"],
+    "react-hooks-nesting": "error"
+  }
+}
